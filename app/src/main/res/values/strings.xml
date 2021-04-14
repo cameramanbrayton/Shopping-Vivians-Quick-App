@@ -5,4 +5,6 @@
     <string name="shopping_vivians_app_home_page" translatable="false"><a href="https://home.vivians.biz/">
         Shopping @ Vivian\'s App Home Page</a></string>
     <string name="string_vivs_login">string/vivs_login</string>
+    <string name="shopping_vivians_app_login_register_page" translatable="false"><a href="https://home.vivians.biz/login-vivians-online-boutique/">
+        Shopping @ Vivian\'s App Login/Register Page</a></string>
 </resources>

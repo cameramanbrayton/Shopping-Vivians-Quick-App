@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.vivsHomeTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.vivsLoginTextView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void openBrowser(View view){
