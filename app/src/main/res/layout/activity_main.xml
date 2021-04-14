@@ -18,6 +18,7 @@
         android:layout_marginRight="40dp"
         android:gravity="center"
         android:text="@string/shopping_vivians_quick_app"
+        android:textColor="#336EE6"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +72,7 @@
         android:tag="https://home.vivians.biz/login-vivians-online-boutique/"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vivsHome"
-        app:srcCompat="@drawable/vivs_v_512" />
+        app:srcCompat="@drawable/viv_v_512" />
 
     <TextView
         android:id="@+id/vivsLoginTextView"
