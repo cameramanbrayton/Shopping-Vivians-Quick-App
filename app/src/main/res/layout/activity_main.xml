@@ -58,4 +58,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/vivsHome"
         app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
+
+    <ImageView
+        android:id="@+id/vivsLogin"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/string_vivs_login"
+        android:onClick="openBrowser"
+        android:tag="https://home.vivians.biz/login-vivians-online-boutique/"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vivsHome"
+        app:srcCompat="@drawable/vivs_v_512" />
 </androidx.constraintlayout.widget.ConstraintLayout>
