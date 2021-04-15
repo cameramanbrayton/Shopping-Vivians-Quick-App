@@ -95,4 +95,18 @@
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toEndOf="@+id/vivsHome"
         app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
+
+    <ImageView
+        android:id="@+id/vivisBlog"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/vivs_home"
+        android:onClick="openBrowser"
+        android:tag="https://home.vivians.biz/blog-at-shopping-at-vivians/"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vivsLogin"
+        app:srcCompat="@drawable/vivs_512" />
 </androidx.constraintlayout.widget.ConstraintLayout>
