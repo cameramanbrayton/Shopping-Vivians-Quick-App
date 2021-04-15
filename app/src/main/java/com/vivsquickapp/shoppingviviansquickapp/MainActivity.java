@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.vivsBlogTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.vivsContactTextView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void openBrowser(View view){

@@ -9,4 +9,6 @@
         Shopping @ Vivian\'s App Login/Register Page</a></string>
     <string name="blog_of_shopping_vivians_app_blog_page" translatable="false"><a href="https://home.vivians.biz/blog-at-shopping-at-vivians/">
         Blog of Shopping @ Vivian\'s App Blog Page</a></string>
+    <string name="contact_vivian_contact_page" translatable="false"><a href="https://home.vivians.biz/contact/">
+        Contact Vivian Contact Page</a></string>
 </resources>

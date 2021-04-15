@@ -80,7 +80,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="22dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
         android:background="#336EE6"
@@ -94,7 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toEndOf="@+id/vivsHome"
-        app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/vivsHomeTextView" />
 
     <ImageView
         android:id="@+id/vivisBlog"
@@ -116,7 +116,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="22dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
         android:background="#336EE6"
@@ -130,7 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/vivsHome"
-        app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/vivsLoginTextView" />
 
     <ImageView
         android:id="@+id/vivsContact"
@@ -145,4 +145,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vivisBlog"
         app:srcCompat="@drawable/vivs_512" />
+
+    <TextView
+        android:id="@+id/vivsContactTextView"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#336EE6"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:text="@string/contact_vivian_contact_page"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/vivsHome"
+        app:layout_constraintTop_toBottomOf="@+id/vivsBlogTextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
