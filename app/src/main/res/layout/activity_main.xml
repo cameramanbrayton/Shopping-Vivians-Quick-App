@@ -109,4 +109,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vivsLogin"
         app:srcCompat="@drawable/vivs_512" />
+
+    <TextView
+        android:id="@+id/vivsBlogTextView"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#336EE6"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:text="@string/blog_of_shopping_vivians_app_blog_page"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/vivsHome"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
 </androidx.constraintlayout.widget.ConstraintLayout>

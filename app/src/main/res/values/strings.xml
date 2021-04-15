@@ -7,4 +7,6 @@
     <string name="string_vivs_login">string/vivs_login</string>
     <string name="shopping_vivians_app_login_register_page" translatable="false"><a href="https://home.vivians.biz/login-vivians-online-boutique/">
         Shopping @ Vivian\'s App Login/Register Page</a></string>
+    <string name="blog_of_shopping_vivians_app_blog_page" translatable="false"><a href="https://home.vivians.biz/blog-at-shopping-at-vivians/">
+        Blog of Shopping @ Vivian\'s App Blog Page</a></string>
 </resources>
