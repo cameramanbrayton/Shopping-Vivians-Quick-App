@@ -16,4 +16,5 @@
     <string name="string_dwi_512">string/dwi_512</string>
     <string name="dueling_worlds_international_home_page" translatable="false"><a href="https://home.duelingworlds.com">
         Dueling Worlds© International Home Page</a></string>
+    <string name="rest_512">rest_512</string>
 </resources>

@@ -239,4 +239,18 @@
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toEndOf="@+id/vivsHome"
         app:layout_constraintTop_toBottomOf="@+id/vivsContactTextView" />
+
+    <ImageView
+        android:id="@+id/vivsRestless"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/rest_512"
+        android:onClick="openBrowser"
+        android:tag="https://home.restlesschild.rocks/"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duelingWorlds"
+        app:srcCompat="@drawable/rest_512" />
 </androidx.constraintlayout.widget.ConstraintLayout>
