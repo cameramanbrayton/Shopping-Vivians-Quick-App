@@ -289,4 +289,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vivsRestless"
         app:srcCompat="@drawable/bad_512" />
+
+    <TextView
+        android:id="@+id/vivsBgdTextView"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#336EE6"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:text="@string/bad_girls_dream_1990_present_app_home_page"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/vivsHome"
+        app:layout_constraintTop_toBottomOf="@+id/vivsContactTextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
