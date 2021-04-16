@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.vivsShoppingTextView);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = findViewById(R.id.vivsDuelingTextView);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     public void openBrowser(View view){
