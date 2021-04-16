@@ -203,4 +203,18 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/vivsHome"
         app:layout_constraintTop_toBottomOf="@+id/vivsContactTextView" />
+
+    <ImageView
+        android:id="@+id/duelingWorlds"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/string_dwi_512"
+        android:onClick="openBrowser"
+        android:tag="https://home.duelingworlds.com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vivsShopping"
+        app:srcCompat="@drawable/dwi_512" />
 </androidx.constraintlayout.widget.ConstraintLayout>
