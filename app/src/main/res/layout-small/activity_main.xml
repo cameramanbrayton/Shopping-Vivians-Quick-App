@@ -24,6 +24,7 @@
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -85,8 +86,8 @@
 
         <ImageView
             android:id="@+id/vivisBlog"
-            android:layout_width="194dp"
-            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/vivs_home"
             android:onClick="openBrowser"
@@ -98,15 +99,14 @@
 
         <TextView
             android:id="@+id/vivsBlogTextView"
-            android:layout_width="194dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="10sp"
-            android:paddingRight="10sp"
+            android:padding="10sp"
             android:text="@string/blog_of_shopping_vivians_app_blog_page"
-            android:textSize="12sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -114,8 +114,8 @@
 
         <ImageView
             android:id="@+id/vivsContact"
-            android:layout_width="194dp"
-            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/vivs_home"
             android:onClick="openBrowser"
@@ -127,15 +127,14 @@
 
         <TextView
             android:id="@+id/vivsContactTextView"
-            android:layout_width="194dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="10sp"
-            android:paddingRight="10sp"
+            android:padding="10sp"
             android:text="@string/contact_vivian_contact_page"
-            android:textSize="12sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -143,8 +142,8 @@
 
         <ImageView
             android:id="@+id/vivsShopping"
-            android:layout_width="194dp"
-            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/vivs_home"
             android:onClick="openBrowser"
@@ -156,15 +155,14 @@
 
         <TextView
             android:id="@+id/vivsShoppingTextView"
-            android:layout_width="194dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="10sp"
-            android:paddingRight="10sp"
+            android:padding="10sp"
             android:text="@string/shopping_vivians_app_shopping_dueling_worlds_page"
-            android:textSize="12sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -172,8 +170,8 @@
 
         <ImageView
             android:id="@+id/duelingWorlds"
-            android:layout_width="194dp"
-            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/string_dwi_512"
             android:onClick="openBrowser"
@@ -185,15 +183,14 @@
 
         <TextView
             android:id="@+id/vivsDuelingTextView"
-            android:layout_width="194dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="10sp"
-            android:paddingRight="10sp"
+            android:padding="10sp"
             android:text="@string/dueling_worlds_international_home_page"
-            android:textSize="12sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -201,8 +198,8 @@
 
         <ImageView
             android:id="@+id/vivsRestless"
-            android:layout_width="194dp"
-            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/rest_512"
             android:onClick="openBrowser"
@@ -214,15 +211,14 @@
 
         <TextView
             android:id="@+id/vivsRestlessTextView"
-            android:layout_width="194dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="10sp"
-            android:paddingRight="10sp"
+            android:padding="10sp"
             android:text="@string/restless_child_1988_to_present_app_home_page"
-            android:textSize="12sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -230,8 +226,8 @@
 
         <ImageView
             android:id="@+id/vivsBgd"
-            android:layout_width="194dp"
-            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/bad_512"
             android:onClick="openBrowser"
@@ -243,15 +239,14 @@
 
         <TextView
             android:id="@+id/vivsBgdTextView"
-            android:layout_width="194dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="10sp"
-            android:paddingRight="10sp"
+            android:padding="10sp"
             android:text="@string/bad_girls_dream_1990_present_app_home_page"
-            android:textSize="12sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
