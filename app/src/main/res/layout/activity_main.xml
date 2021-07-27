@@ -250,14 +250,14 @@
             android:layout_width="0dp"
             android:layout_height="220dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/rest_512"
+            android:contentDescription="@string/restless_child_1988_to_present_quick_app"
             android:onClick="openBrowser"
-            android:tag="https://home.restlesschild.rocks/"
+            android:tag="https://restlesschild.rocks/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsDuelingTextView"
-            app:srcCompat="@drawable/ic_rest_512" />
+            app:srcCompat="@drawable/ic_restlesschild_members" />
 
         <TextView
             android:id="@+id/vivsRestlessTextView"
@@ -268,7 +268,7 @@
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
-            android:text="@string/restless_child_1988_to_present_app_home_page"
+            android:text="@string/restless_child_1988_to_present_quick_app"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
