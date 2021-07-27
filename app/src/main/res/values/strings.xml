@@ -4,12 +4,10 @@
     <string name="vivs_home">vivs_home</string>
     <string name="shopping_vivians_app_home_page" translatable="false"><a href="https://vivians.biz/shopping-at-vivians-online/">
         Shopping @ Vivian\'s App Home Page</a></string>
-    <string name="blog_of_shopping_vivians_app_blog_page" translatable="false"><a href="https://home.vivians.biz/blog-at-shopping-at-vivians/">
+    <string name="blog_of_shopping_vivians_app_blog_page" translatable="false"><a href="https://vivians.biz/blog-at-shopping-at-vivians/">
         Blog of Shopping @ Vivian\'s App Blog Page</a></string>
-    <string name="contact_vivian_contact_page" translatable="false"><a href="https://home.vivians.biz/contact/">
+    <string name="contact_vivian_contact_page" translatable="false"><a href="https://vivians.biz/contact/">
         Contact Vivian Contact Page</a></string>
-    <string name="shopping_vivians_app_shopping_dueling_worlds_page" translatable="false"><a href="https://shop.duelingworlds.com/">
-        Shopping @ Vivian\'s App Shopping @ Dueling Worlds© Page</a></string>
     <string name="brayton_scott_music_entertainment_all_music_app_17_songs_3_99" translatable="false">
         <a href="https://shop.duelingworlds.com/shop/brayton-scott-music-entertainment-all-music-app-17-songs-3-99/">
             Brayton Scott Music Entertainment All Music App, 17 Songs $3.99</a></string>

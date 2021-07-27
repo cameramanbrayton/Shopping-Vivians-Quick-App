@@ -29,50 +29,117 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/vivsHome"
+            android:id="@+id/rcbgdMusicAppImage"
             android:layout_width="0dp"
             android:layout_height="160dp"
-            android:layout_marginTop="8dp"
-            android:contentDescription="@string/vivs_home"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
             android:onClick="openBrowser"
-            android:tag="https://home.vivians.biz/"
+            android:tag="https://shop.duelingworlds.com/shop/brayton-scott-music-entertainment-all-music-app-17-songs-3-99/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewHeader"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
 
         <TextView
-            android:id="@+id/vivsHomeTextView"
+            android:id="@+id/rcbgdMusicAppText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:padding="10sp"
-            android:text="@string/shopping_vivians_app_home_page"
+            android:text="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vivsHome" />
+            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppImage" />
 
         <ImageView
-            android:id="@+id/vivsLogin"
+            android:id="@+id/rcMusicAppImage"
             android:layout_width="0dp"
             android:layout_height="160dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/string_vivs_login"
+            android:contentDescription="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
             android:onClick="openBrowser"
-            android:tag="https://home.vivians.biz/login-vivians-online-boutique/"
+            android:tag="https://shop.duelingworlds.com/shop/restless-child-album-in-app-site-1989-album-12-songs-2-99/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vivsHomeTextView"
-            app:srcCompat="@drawable/ic_vivs_v_512" />
+            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppText"
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/rcMusicAppText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#336EE6"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppImage" />
+
+        <ImageView
+            android:id="@+id/bgdMusicAppImage"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/bad-girls-dream-album-in-app-site-the-taste-of-satisfaction-1990-album-5-songs-1-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppText"
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+
+        <TextView
+            android:id="@+id/bgdMusicAppText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#336EE6"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppImage" />
+
+        <ImageView
+            android:id="@+id/vivsHome"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/vivs_home"
+            android:onClick="openBrowser"
+            android:tag="https://home.vivians.biz/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppText"
+            app:srcCompat="@drawable/ic_vivs_512" />
 
         <TextView
             android:id="@+id/vivsLoginTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
@@ -81,6 +148,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsLogin" />
 
@@ -93,6 +161,7 @@
             android:onClick="openBrowser"
             android:tag="https://home.vivians.biz/blog-at-shopping-at-vivians/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsLoginTextView"
             app:srcCompat="@drawable/ic_vivs_512" />
@@ -101,6 +170,7 @@
             android:id="@+id/vivsBlogTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
@@ -109,6 +179,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivisBlog" />
 
@@ -116,11 +187,12 @@
             android:id="@+id/vivsContact"
             android:layout_width="0dp"
             android:layout_height="160dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/vivs_home"
             android:onClick="openBrowser"
             android:tag="https://home.vivians.biz/contact/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsBlogTextView"
             app:srcCompat="@drawable/ic_vivs_512" />
@@ -129,6 +201,7 @@
             android:id="@+id/vivsContactTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
@@ -137,6 +210,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsContact" />
 
@@ -144,11 +218,12 @@
             android:id="@+id/vivsShopping"
             android:layout_width="0dp"
             android:layout_height="160dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/vivs_home"
             android:onClick="openBrowser"
             android:tag="https://shop.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsContactTextView"
             app:srcCompat="@drawable/ic_vivs_512" />
@@ -157,6 +232,7 @@
             android:id="@+id/vivsShoppingTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
@@ -165,6 +241,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsShopping" />
 
@@ -172,11 +249,12 @@
             android:id="@+id/duelingWorlds"
             android:layout_width="0dp"
             android:layout_height="160dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="28dp"
             android:contentDescription="@string/string_dwi_512"
             android:onClick="openBrowser"
             android:tag="https://home.duelingworlds.com"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsShoppingTextView"
             app:srcCompat="@drawable/ic_dwi_512" />
@@ -185,6 +263,7 @@
             android:id="@+id/vivsDuelingTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
@@ -193,6 +272,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/duelingWorlds" />
 
@@ -205,6 +285,7 @@
             android:onClick="openBrowser"
             android:tag="https://home.restlesschild.rocks/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsDuelingTextView"
             app:srcCompat="@drawable/ic_rest_512" />
@@ -213,6 +294,7 @@
             android:id="@+id/vivsRestlessTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
@@ -221,6 +303,7 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsRestless" />
 
@@ -228,11 +311,12 @@
             android:id="@+id/vivsBgd"
             android:layout_width="0dp"
             android:layout_height="160dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="60dp"
             android:contentDescription="@string/bad_512"
             android:onClick="openBrowser"
             android:tag="https://homer.bgdmusic.club/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsRestlessTextView"
             app:srcCompat="@drawable/ic_bad_512" />
@@ -241,6 +325,7 @@
             android:id="@+id/vivsBgdTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
             android:background="#336EE6"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
@@ -249,7 +334,40 @@
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsBgd" />
+
+        <TextView
+            android:id="@+id/vivsHomeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#336EE6"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/shopping_vivians_app_home_page"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vivsHome" />
+
+        <ImageView
+            android:id="@+id/vivsLogin"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/string_vivs_login"
+            android:onClick="openBrowser"
+            android:tag="https://home.vivians.biz/login-vivians-online-boutique/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vivsHomeTextView"
+            app:srcCompat="@drawable/ic_vivs_v_512" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
