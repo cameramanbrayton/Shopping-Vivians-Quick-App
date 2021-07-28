@@ -40,7 +40,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewHeader"
-            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppText"
@@ -71,7 +72,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppText"
-            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcMusicAppText"
@@ -102,7 +104,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppText"
-            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/bgdMusicAppText"
