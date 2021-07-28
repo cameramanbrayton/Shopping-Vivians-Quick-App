@@ -159,7 +159,7 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/contact_vivian_contact_page"
             android:onClick="openBrowser"
-            android:tag="https://home.vivians.biz/contact/"
+            android:tag="https://vivians.biz/contact/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
