@@ -190,7 +190,7 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/vivs_home"
             android:onClick="openBrowser"
-            android:tag="https://home.vivians.biz/blog-at-shopping-at-vivians/"
+            android:tag="https://vivians.biz/blog-at-shopping-at-vivians/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
