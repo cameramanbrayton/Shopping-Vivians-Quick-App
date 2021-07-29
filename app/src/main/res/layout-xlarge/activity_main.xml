@@ -21,7 +21,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/shopping_vivians_quick_app"
-            android:textColor="#336EE6"
+            android:textColor="#3D5AFE"
             android:textSize="44sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewHeader"
-            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppText"
@@ -52,6 +53,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
+            android:textColor="#64FFDA"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +73,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppText"
-            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcMusicAppText"
@@ -83,6 +86,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
+            android:textColor="#64FFDA"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +106,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppText"
-            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/bgdMusicAppText"
@@ -114,6 +119,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
+            android:textColor="#64FFDA"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -133,7 +139,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppText"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_vivs_512"
+            tools:ignore="UsingOnClickInXml,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/vivsHomeTextView"
@@ -164,7 +171,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsHomeTextView"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_vivs_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/vivsContactTextView"
@@ -195,7 +203,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsContactTextView"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_vivs_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/vivsBlogTextView"
@@ -226,7 +235,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsBlogTextView"
-            app:srcCompat="@drawable/ic_dwi_512" />
+            app:srcCompat="@drawable/ic_dwi_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/vivsDuelingTextView"
@@ -257,7 +267,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsDuelingTextView"
-            app:srcCompat="@drawable/ic_restlesschild_members" />
+            app:srcCompat="@drawable/ic_restlesschild_members"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/vivsRestlessTextView"
@@ -288,7 +299,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vivsRestlessTextView"
-            app:srcCompat="@drawable/ic_bad_512" />
+            app:srcCompat="@drawable/ic_bad_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/vivsBgdTextView"
